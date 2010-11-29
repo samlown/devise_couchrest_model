@@ -9,7 +9,9 @@ Add *devise*, *devise_couch* and *couchrest_model* gems to your Gemfile (your Ra
 <pre>
   gem 'couchrest_model'
   gem 'devise'
-  gem 'devise_couch'
+  gem 'devise_couchrest_model'
+
+  # If you are going to use the generators:
   gem 'rails3-generators', :git => 'git://github.com/shenoudab/rails3-generators.git'
 </pre>
   

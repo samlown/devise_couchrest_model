@@ -2,10 +2,10 @@ source 'http://rubygems.org'
 
 gem 'rails'
 
-gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
+gem 'devise', '~> 1.1.3'
 
-gem 'couchrest', :git => 'git://github.com/couchrest/couchrest.git'
-gem 'couchrest_model', :git => 'git://github.com/couchrest/couchrest_model.git'
+gem 'couchrest', '~> 1.0.0'
+gem 'couchrest_model'
 
 gem 'oauth2'
 

@@ -17,7 +17,7 @@ module Devise
           options = args.extract_options!
 
           if options.present?
-            raise "You can't search with more than one condition yet =(" if options[:conditions].keys.size > 1
+            raise "You can't search with more than one condition: "+options[:conditions].keys.join(', ') if options[:conditions].keys.size > 1
             find_by_key_and_value(options[:conditions].keys.first, options[:conditions].values.first)
           else
             id = args.flatten.compact.uniq.join
