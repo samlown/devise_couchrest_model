@@ -12,6 +12,6 @@ Gem::Specification.new do |s|
   s.email = "sbertel@mobithought.com"
   s.homepage = "http://github.com/shenoudab/devise_couch"
   s.author = 'Shenouda Bertel'
-  s.files        = Dir.glob("{lib,test}/**/*") + %w(MIT-LICENSE README.markdown Gemfile Rakefile devise_couch.gemspec)
+  s.files        = Dir.glob("{lib,test}/**/*") + %w(MIT-LICENSE README.markdown Gemfile Rakefile devise_couchrest_model.gemspec)
   s.require_path = 'lib'
 end
