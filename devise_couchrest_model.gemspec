@@ -2,13 +2,13 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
  
-require 'devise_couch/version'
+require 'devise_couchrest_model'
  
 Gem::Specification.new do |s|
-  s.name    = "devise_couch"
+  s.name    = "devise_couchrest_model"
   s.summary = "CouchDB integration for Devise framework"
   s.description = "CouchDB integration for Devise authentication framework"
-  s.version = DeviseCouch::VERSION
+  s.version = DeviseCouchrestModel::VERSION
   s.email = "sbertel@mobithought.com"
   s.homepage = "http://github.com/shenoudab/devise_couch"
   s.author = 'Shenouda Bertel'

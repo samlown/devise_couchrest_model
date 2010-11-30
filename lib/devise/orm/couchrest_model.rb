@@ -1,4 +1,3 @@
-require 'devise_couch'
 require 'devise/orm/couchrest_model/schema'
 
 module Devise
